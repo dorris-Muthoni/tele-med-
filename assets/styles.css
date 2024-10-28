@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #003366;
+    color: white;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+.home {
+    background-color: #f3f4f6;
+    padding: 3em 0;
+}
+
+.services-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background: #eef;
+    padding: 1em;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    color: white;
+    background-color: #0073e6;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Form Styles */
+.form-container {
+    max-width: 400px;
+    margin: 3em auto;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
